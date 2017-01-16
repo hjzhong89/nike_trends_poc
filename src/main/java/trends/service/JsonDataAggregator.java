@@ -151,7 +151,7 @@ public class JsonDataAggregator implements DataAggregatorService {
                 } else {
                     ItemTrendHistory itemTrendHistory = trendHistories.get(item.getName());
                     Date firstAppearance = itemTrendHistory.getFirstAppearance();
-                    if (!firstAppearance.before(startDate)) {
+                    if (compareDates(firstAppearance, startDate) >= 0) {
                         itemTrendData.setStatus("NEW");
                     }
                 }
