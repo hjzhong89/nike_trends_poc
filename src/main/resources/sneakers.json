@@ -1,0 +1,67 @@
+[
+  {
+    "_id": 0,
+    "name": "Kyrie 3",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 1,
+    "name": "Kobe A.D",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 2,
+    "name": "Nike Zoom KD 9",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 3,
+    "name": "Nike Zoom LeBron Soldier 10 SFG",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 4,
+    "name": "Kobe XI",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 5,
+    "name": "Nike Kobe Mamba Instinct",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 6,
+    "name": "Nike Hypberdunk 2016",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 7,
+    "name": "Nike Zoom Live 2017",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 8,
+    "name": "Nike Lebron Witness",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 9,
+    "name": "Nike Prime Hype DF 2016",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 10,
+    "name": "Jordan CP3.X",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 11,
+    "name": "Jordan Super.Fly 5",
+    "itemType": "SNEAKER"
+  },
+  {
+    "_id": 12,
+    "name": "Nike Air Force 1",
+    "itemType": "SNEAKER"
+  }
+]

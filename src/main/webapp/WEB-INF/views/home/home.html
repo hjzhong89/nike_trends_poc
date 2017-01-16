@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Nike Trends</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .new-item {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="width: 400px; margin: auto;">
+        <form method="get" width="100%">
+            <div class="form-group">
+                <label for="week-select">Select a week</label>
+                <select id="week-select" class="form-control">
+
+                </select>
+            </div>
+        </form>
+
+        <div id="message">
+
+        </div>
+        <div id="trending-items">
+            <ol id="trending-items-list">
+
+            </ol>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- MomentJS -->
+    <script src="http://momentjs.com/downloads/moment.js"></script>
+    <script th:src="@{/resources/js/trends.js}"></script>
+</body>
+</html>
