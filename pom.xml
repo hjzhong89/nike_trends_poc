@@ -110,6 +110,11 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
+
+                    <!--
+                    <url>http://ec2-35-167-23-125.us-west-2.compute.amazonaws.com:8080/manager/text</url>
+                    <server>EC2</server>
+                    -->
                     <url>http://localhost:8080/manager/text</url>
                     <server>Tomcat9</server>
                     <path>/trends</path>
